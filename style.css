@@ -1,0 +1,205 @@
+body {
+  background-color: #fff;
+  margin: 0px;
+  padding: 0px;
+}
+
+.navigation {
+  box-sizing: border-box;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  overflow: auto;
+  width: 100%;
+  padding: 30px;
+  z-index: 99;
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0px;
+}
+
+.navigation a {
+  color: #736b92;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  padding: 10px 40px;
+  text-transform: uppercase;
+}
+
+a.logo {
+  color: #2176ff;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 34px;
+  padding: 0px 60px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1418290232843-5d7a0bd93f7d?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb");
+  background-position: center top;
+  background-size: cover;
+  border-bottom: 1px solid #ddd;
+  height: 700px;
+  position: relative;
+  text-align: center;
+  top: 100px;
+  width: 100%;
+}
+
+.banner-text {
+  position: relative;
+  top: 200px;
+}
+
+.btn {
+  font-size: 16px;
+  border: 1px solid blue;
+  background-color: #2176ff;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2176ff;
+  transition: background-color 0.15s, font-size 0.15s;
+  font-size: 18px;
+}
+
+.btn:active {
+  border-color: #fff;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: #2176ff;
+  font-family: "Amatic SC", sans-serif;
+  font-size: 30px;
+  margin: 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.banner h2 {
+  font-size: 120px;
+  margin: -40px 0px 80px 0px;
+}
+
+.content {
+  background-image: url("https://content.codecademy.com/courses/learn-links-and-buttons/project/mountain1.jpg");
+  background-position: center top;
+  background-size: cover;
+  border-bottom: 1px solid #eee;
+  margin: 0 auto;
+  overflow-y: auto;
+  padding: 80px 0px;
+  position: relative;
+  text-align: center;
+}
+
+p {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 42px;
+  text-align: left;
+}
+
+.description {
+  display: inline-block;
+  width: 70%;
+}
+
+.activities-panel {
+  margin-bottom: 40px;
+  padding: 80px 0px;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.activities-panel h2 {
+  width: 100%;
+}
+
+.activity {
+  background-color: #2176ff;
+  box-sizing: border-box;
+  width: 240px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Amatic Sc", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5px;
+}
+
+.activity:hover {
+  background-color: #fff;
+  color: #5495ff;
+  transition: color 0.1s ease-in, background-color 0.1s ease-in;
+}
+
+.activity:active {
+  font-size: 40px;
+  transition: font-size 0.1s;
+}
+
+.footer {
+  background-color: #2176ff;
+  padding: 30px;
+  text-align: center;
+}
+
+.footer h2 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+a {
+  color: #2176ff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #5495ff;
+}
